@@ -5,7 +5,7 @@
 The **run_analysis** function receives as a parameter the base directory where the files are organized in the same structure as
 supplied for the course project. This means that run_analysis expects to receive the following structure:
 
-* base directory
+* "base directory"
   * test
     * subject-test.txt
     * X_test.txt
@@ -24,7 +24,7 @@ supplied for the course project. This means that run_analysis expects to receive
   Each line contains a set of 561 measurements related to a subject performing one activity. The 561 measuremente are 
   variables (columns) in the file. These measurements are identified in the **features.txt** file. 
   The subject corresponding to each row is in the file **subject_train.txt**. It is identified as
-  a number in the 1..30 interval. In the same way, The activity corresponding to each row is in the file **y_train.txt**.
+  a number in the 1..30 interval. In the same way, the activity corresponding to each row is in the file **y_train.txt**.
   In this file, the activity is a number in the 1..6 interval. 
   The corresponding name of each activity is in the **activity-labels.txt**.
       
