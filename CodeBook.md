@@ -1,7 +1,11 @@
+# CodeBook for the Coursera getdata-007 Course Project
+
+## Dataset Direct
+
 The run_analysis function receive as parameter the base directory where the files are organized in the same structure as
 supplied for the course project. This means that run_analysis expects to receive the following structure:
 
-<base directory>
+base directory
   test
     subject-test.txt
     X_test.txt
@@ -13,6 +17,8 @@ supplied for the course project. This means that run_analysis expects to receive
     activity-labels.txt
     features.txt
     
+## Dataset Contents
+
 X_train.txt
 
   Each line contains a set of 561 measurements related to a subject performing one activity. The 561 measuremente are 
@@ -25,6 +31,8 @@ X_train.txt
 X_test.txt
 
   Same description substituting "train" by "test".
+
+## Data Transformations
 
 the rest of this document describes the transformations performed to the data 
 
