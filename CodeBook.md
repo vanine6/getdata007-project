@@ -16,6 +16,8 @@ supplied for the course project. This means that run_analysis expects to receive
     * y_train.txt
   * activity-labels.txt
   * features.txt
+
+**Note**: the default values for the base directory is the working directory.
     
 ### Dataset Contents
 
