@@ -5,17 +5,17 @@
 The run_analysis function receive as parameter the base directory where the files are organized in the same structure as
 supplied for the course project. This means that run_analysis expects to receive the following structure:
 
-base directory
-  test
-    subject-test.txt
-    X_test.txt
-    y_test.txt
-  train
-      subject-train.txt
-      X_train.txt
-      y_train.txt
-    activity-labels.txt
-    features.txt
+* <base directory>
+  * test
+    * subject-test.txt
+    * X_test.txt
+    * y_test.txt
+  * train
+    * subject-train.txt
+    * X_train.txt
+    * y_train.txt
+  * activity-labels.txt
+  * features.txt
     
 ## Dataset Contents
 
@@ -39,7 +39,7 @@ the rest of this document describes the transformations performed to the data
 -- Merges the training and the test sets to create one data set.
 
 The X_train and X_test files are read and merged in a data frame "train_test_df". 
-The data frame "train_test_df" has n+m rows and 561 columns where n and m are the number of rows in the X_train and X_test file, respectively.
+The data frame "train_test_df" has *n+m* rows and 561 columns where *n* and *m* are the number of rows in the X_train and X_test file, respectively.
 
 -- Extracts only the measurements on the mean and standard deviation for each measurement. 
 
