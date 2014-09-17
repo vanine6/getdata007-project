@@ -5,7 +5,7 @@
 The **run_analysis** function receives as a parameter the base directory where the files are organized in the same structure as
 supplied for the course project. This means that run_analysis expects to receive the following structure:
 
-* ´<base directory>´
+* \<base directory\>
   * test
     * subject-test.txt
     * X_test.txt
