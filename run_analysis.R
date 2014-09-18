@@ -61,7 +61,6 @@ run_analysis <- function (base_dir="./") {
 ## Insert the feature names as variable names in the data frame (R4)
 ##
     colnames(ms_train_test_df) <- features_df[ms_features_idx,2]
-    ms_train_test_df
 ##
 ##
 ##  Add to the data frame a column with the activity names coming from
@@ -95,7 +94,7 @@ run_analysis <- function (base_dir="./") {
     ms_train_test_df["subject"] <- sub_train_test_df
 ##
 ##  Creates a new data set with the average of each variable for each activity
-##  and each subject
+##  and each subject (R5). Return the summarised data frame.
 ##
     ms_tt_summarised_df <- summarise_each(group_by(ms_train_test_df, activity, subject),
                                           funs(mean))
