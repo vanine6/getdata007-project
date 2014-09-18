@@ -21,19 +21,15 @@ supplied for the course project. This means that run_analysis expects to receive
     
 ### Dataset Contents
 
-**X_train.txt**
-
-  Each line contains a set of 561 measurements related to a subject performing one activity. The 561 measuremente are 
-  variables (columns) in the file. These measurements are identified in the **features.txt** file. 
+  Each line of **X_train.txt** contains a set of 561 measurements related to a subject performing one activity. 
+  The 561 measuremente are variables (columns) in the file. These measurements are identified in the **features.txt** file. 
   The subject corresponding to each row is in the file **subject_train.txt**. It is identified as
   a number in the 1..30 interval. In the same way, the activity corresponding to each row is in the file **y_train.txt**.
   In this file, the activity is a number in the 1..6 interval. 
   The corresponding name of each activity is in the **activity-labels.txt**.
       
-**X_test.txt**
-
-  Same description substituting "train" by "test".
-
+  The same description is applied for **X_test.txt**, replacing "train"by "test".
+  
 ### Data Transformations
 
 the rest of this document describes the transformations performed to the data 
