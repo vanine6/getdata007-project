@@ -7,7 +7,7 @@ The package ‘dplyr’ has to be loaded before executing the script.
 
 In the script file, there is a function called *read_merge_train_test()* which receives two file names (corresponding to train and test), read these files and merge them returning a data frame with the merged files.
 
-The text from the Coursera project page follows below
+The text from the Coursera project page follows below.
 
 **Course Project**
 
